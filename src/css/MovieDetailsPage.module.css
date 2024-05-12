@@ -1,0 +1,19 @@
+.detailsContainer {
+  display: flex;
+  gap: 20px;
+}
+.movieDetParagr {
+  font-size: 20px;
+  font-weight: 600;
+}
+.movieDetParagrSmall {
+  font-size: 20px;
+}
+.imgContainer {
+  flex-shrink: 0;
+}
+
+.castContainer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}

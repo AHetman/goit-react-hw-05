@@ -1,0 +1,27 @@
+.MoviesListItem {
+  cursor: pointer;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.MovieListItem:hover {
+  transform: scale(1.04);
+  color: rgb(255, 255, 255);
+}
+.MoviesList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 10px;
+  margin: 0 auto;
+}
+.movieItemContainer {
+  overflow: hidden;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  border: 2px solid rgb(103, 143, 138);
+}

@@ -1,0 +1,27 @@
+.MoviesPageForm {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.MoviesPageInput {
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 8px;
+  width: 300px;
+  font-size: 18px;
+}
+.searchBarButton {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100px;
+  background-color: rgb(103, 143, 138);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+.searchBarButton:hover {
+  background-color: rgb(26, 234, 210);
+  transform: scale(1.03);
+}

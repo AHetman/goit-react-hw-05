@@ -1,0 +1,13 @@
+.castList {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.castItemContainer {
+  display: flex;
+  flex-direction: column;
+}
